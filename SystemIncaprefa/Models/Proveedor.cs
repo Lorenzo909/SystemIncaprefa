@@ -19,6 +19,6 @@ namespace SystemIncaprefa.Models
         public string Distrito { get; set; }
         public string Direccion { get; set; }
 
-        public virtual ICollection<Factura> Facturas { get; set; }
+        public virtual List<Factura> Facturas { get; set; }
     }
 }

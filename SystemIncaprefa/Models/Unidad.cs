@@ -13,6 +13,6 @@ namespace SystemIncaprefa.Models
         public string Simbolo { get; set; }
         public string Descripcion { get; set; }
 
-        public virtual ICollection<Material> Materiales { get; set; }
+        public virtual List<Material> Materiales { get; set; }
     }
 }

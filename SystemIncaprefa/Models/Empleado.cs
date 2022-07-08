@@ -16,6 +16,6 @@ namespace SystemIncaprefa.Models
         public string Telefono { get; set; }
         public string Email { get; set; }
 
-        public virtual ICollection<Planilla> Planillas { get; set; }
+        public virtual List<Planilla> Planillas { get; set; }
     }
 }

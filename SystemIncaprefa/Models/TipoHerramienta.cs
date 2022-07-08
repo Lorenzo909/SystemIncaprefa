@@ -12,6 +12,6 @@ namespace SystemIncaprefa.Models
         public int Id { get; set; }
         public string Tipo { get; set; }
 
-        public virtual ICollection<Herramienta> Herramienta { get; set; }
+        public virtual List<Herramienta> Herramienta { get; set; }
     }
 }

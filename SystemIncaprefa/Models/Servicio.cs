@@ -13,6 +13,6 @@ namespace SystemIncaprefa.Models
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
 
-        public virtual ICollection<Contacto> Contactos { get; set; }
+        public virtual List<Contacto> Contactos { get; set; }
     }
 }

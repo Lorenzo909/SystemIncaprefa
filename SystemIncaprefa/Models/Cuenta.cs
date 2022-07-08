@@ -13,6 +13,6 @@ namespace SystemIncaprefa.Models
         public int Id { get; set; }
         public string TipoCuenta { get; set; }
 
-        public virtual ICollection<Factura> Facturas { get; set; }
+        public virtual List<Factura> Facturas { get; set; }
     }
 }

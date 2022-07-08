@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SystemIncaprefa.Models;
 
 namespace IncaprefaS.A.Data
 {
@@ -13,20 +14,20 @@ namespace IncaprefaS.A.Data
             : base(options)
         {
         }
-        public DbSet<SystemIncaprefa.Models.Categoria> Categorias { get; set; }
-        public DbSet<SystemIncaprefa.Models.Contacto> Contactos { get; set; }
-        public DbSet<SystemIncaprefa.Models.Cuenta> Cuentas { get; set; }
-        public DbSet<SystemIncaprefa.Models.Empleado> Empleados { get; set; }
-        public DbSet<SystemIncaprefa.Models.Estado> Estados { get; set; }
-        public DbSet<SystemIncaprefa.Models.Factura> Facturas { get; set; }
-        public DbSet<SystemIncaprefa.Models.Herramienta> Herramientas { get; set; }
-        public DbSet<SystemIncaprefa.Models.Material> Materiales { get; set; }
-        public DbSet<SystemIncaprefa.Models.Planilla> Planillas { get; set; }
-        public DbSet<SystemIncaprefa.Models.Proveedor> Proveedores { get; set; }
-        public DbSet<SystemIncaprefa.Models.Proyecto> Proyectos { get; set; }
-        public DbSet<SystemIncaprefa.Models.Puesto> Puestos { get; set; }
-        public DbSet<SystemIncaprefa.Models.Servicio> Servicios { get; set; }
-        public DbSet<SystemIncaprefa.Models.TipoHerramienta> TipoHerramientas { get; set; }
-        public DbSet<SystemIncaprefa.Models.Unidad> Unidades { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Contacto> Contactos { get; set; }
+        public DbSet<Cuenta> Cuentas { get; set; }
+        public DbSet<Empleado> Empleados { get; set; }
+        public DbSet<Estado> Estados { get; set; }
+        public DbSet<Factura> Facturas { get; set; }
+        public DbSet<Herramienta> Herramientas { get; set; }
+        public DbSet<Material> Materiales { get; set; }
+        public DbSet<Planilla> Planillas { get; set; }
+        public DbSet<Proveedor> Proveedores { get; set; }
+        public DbSet<Proyecto> Proyectos { get; set; }
+        public DbSet<Puesto> Puestos { get; set; }
+        public DbSet<Servicio> Servicios { get; set; }
+        public DbSet<TipoHerramienta> TipoHerramientas { get; set; }
+        public DbSet<Unidad> Unidades { get; set; }
     }
 }

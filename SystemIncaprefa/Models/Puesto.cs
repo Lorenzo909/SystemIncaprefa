@@ -10,9 +10,9 @@ namespace SystemIncaprefa.Models
     {
         [Key]
         public int Id { get; set; }
-        public string NombrePuesto { get; set; }
+        public string Cargo { get; set; }
         public string Descripcion { get; set; }
 
-        public virtual ICollection<Planilla> Planillas { get; set; }
+        public virtual List<Planilla> Planillas { get; set; }
     }
 }

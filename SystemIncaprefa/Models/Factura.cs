@@ -11,10 +11,10 @@ namespace SystemIncaprefa.Models
         [Key]
         public int Id { get; set; }
         public string Consecutivo { get; set; }
-        public decimal? Monto { get; set; }
-        public DateTime? FechaEmicion { get; set; }
-        public int? CuentaId { get; set; }
-        public int? ProveedorId { get; set; }
+        public decimal Monto { get; set; }
+        public DateTime FechaEmicion { get; set; }
+        public int CuentaId { get; set; }
+        public int ProveedorId { get; set; }
 
         public virtual Cuenta Cuentas { get; set; }
         public virtual Proveedor Proveedores { get; set; }
